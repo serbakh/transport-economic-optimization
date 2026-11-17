@@ -1,0 +1,21 @@
+{
+  "source_file": "Додатки — збережені з попередньої Word-версії 2026-11-08.docx",
+  "source_sha256": "b347cc906175e88ba154caa801b5b2d9973a9e7bcaca6d2156d7d6743f74ebfb",
+  "scope": "Додатки 2 і 3; основний текст із таблицями; без графічного бланка й контактної таблиці шапки",
+  "documents": {
+    "2": {
+      "path": "docs/Додаток 2 — Виробниче завдання на економічний вибір.md",
+      "sha256": "7b9607b8e2a9980fc4ee6fdf560d94d2240ea5a5fa2d0bf1c913ed65af294cd0",
+      "questions": 0,
+      "tables": 1,
+      "all_body_paragraphs_preserved": true
+    },
+    "3": {
+      "path": "docs/Додаток 3 — Результати опитування щодо витрат.md",
+      "sha256": "fa40aea4d136f700187ef3e86129e2d5b32bb98a432f8ba6008938ced02054f9",
+      "questions": 43,
+      "tables": 0,
+      "all_body_paragraphs_preserved": true
+    }
+  }
+}

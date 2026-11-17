@@ -1,0 +1,22 @@
+# Текст нової версії має однакові переноси рядків на різних комп’ютерах.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# Зберігаємо байти вихідного коду статті для перевірки SHA-256.
+baseline/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+data/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+src/vessel_cycle.py -text
+
+# Зберігаємо байти історичних результатів та їхні контрольні суми.
+results/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol
+historical/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

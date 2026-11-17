@@ -1,0 +1,687 @@
+{
+  "training_rows": 18360,
+  "control_rows": 9180,
+  "heldout_rows": 3720,
+  "heldout_resource_configurations": 31,
+  "heldout_configurations": {
+    "loading_hours": {
+      "mae": 0.8646017244720284,
+      "r2": 0.9882320758974903
+    },
+    "first_day_tons": {
+      "mae": 44.4211935897994,
+      "r2": 0.9911199178506322
+    },
+    "minimum_full_day_tons": {
+      "mae": 44.35261922237122,
+      "r2": 0.9911284432026982
+    },
+    "cost_uah": {
+      "mae": 9723.834089984917,
+      "r2": 0.9627169991339453
+    },
+    "contract": {
+      "accuracy": 1.0,
+      "confusion_matrix": [
+        [
+          3240,
+          0
+        ],
+        [
+          0,
+          480
+        ]
+      ],
+      "labels": [
+        false,
+        true
+      ],
+      "false_admissions": 0,
+      "false_rejections": 0
+    },
+    "linear_loading_hours": {
+      "mae": 12.177439251791247
+    }
+  },
+  "independent_seeds": {
+    "loading_hours": {
+      "mae": 0.18341257197162528,
+      "r2": 0.9998638846133375
+    },
+    "first_day_tons": {
+      "mae": 18.538057465037443,
+      "r2": 0.9995584760650927
+    },
+    "minimum_full_day_tons": {
+      "mae": 18.388977914138675,
+      "r2": 0.999565565542651
+    },
+    "cost_uah": {
+      "mae": 854.4850425762301,
+      "r2": 0.9994962774756985
+    },
+    "contract": {
+      "accuracy": 0.9989106753812637,
+      "confusion_matrix": [
+        [
+          6384,
+          4
+        ],
+        [
+          6,
+          2786
+        ]
+      ],
+      "labels": [
+        false,
+        true
+      ],
+      "false_admissions": 4,
+      "false_rejections": 6
+    }
+  },
+  "metrics_by_conditions": [
+    {
+      "context": "scale_0_road_0",
+      "loading_hours": {
+        "mae": 0.16772048688786145,
+        "r2": 0.9998924713555242
+      },
+      "first_day_tons": {
+        "mae": 18.158257964597617,
+        "r2": 0.9996263161937449
+      },
+      "minimum_full_day_tons": {
+        "mae": 17.925820779886898,
+        "r2": 0.9996356241823268
+      },
+      "cost_uah": {
+        "mae": 836.0468182054695,
+        "r2": 0.99954824865442
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            525,
+            0
+          ],
+          [
+            0,
+            240
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_0_road_15",
+      "loading_hours": {
+        "mae": 0.1718727892821038,
+        "r2": 0.9998994636941227
+      },
+      "first_day_tons": {
+        "mae": 18.529793279900687,
+        "r2": 0.99958811727904
+      },
+      "minimum_full_day_tons": {
+        "mae": 18.414244309495494,
+        "r2": 0.9995918215407045
+      },
+      "cost_uah": {
+        "mae": 840.3545820790627,
+        "r2": 0.9995459216789119
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            525,
+            0
+          ],
+          [
+            0,
+            240
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_0_road_30",
+      "loading_hours": {
+        "mae": 0.20322034138667397,
+        "r2": 0.9998259428533659
+      },
+      "first_day_tons": {
+        "mae": 21.31887073070235,
+        "r2": 0.9994932209374527
+      },
+      "minimum_full_day_tons": {
+        "mae": 21.1404224355482,
+        "r2": 0.9995029151594658
+      },
+      "cost_uah": {
+        "mae": 889.8051026015875,
+        "r2": 0.9994675021196826
+      },
+      "contract": {
+        "accuracy": 0.9947712418300654,
+        "confusion_matrix": [
+          [
+            525,
+            4
+          ],
+          [
+            0,
+            236
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 4,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_0_road_5",
+      "loading_hours": {
+        "mae": 0.1799835111976059,
+        "r2": 0.9998778312510104
+      },
+      "first_day_tons": {
+        "mae": 18.757782343765776,
+        "r2": 0.9996028432069516
+      },
+      "minimum_full_day_tons": {
+        "mae": 18.626687380692598,
+        "r2": 0.9996115256529731
+      },
+      "cost_uah": {
+        "mae": 828.2113255180399,
+        "r2": 0.99954087649837
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            525,
+            0
+          ],
+          [
+            0,
+            240
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_50_road_0",
+      "loading_hours": {
+        "mae": 0.17392865864962082,
+        "r2": 0.9998876269566189
+      },
+      "first_day_tons": {
+        "mae": 17.099961307040765,
+        "r2": 0.9995692358887999
+      },
+      "minimum_full_day_tons": {
+        "mae": 17.06808274178051,
+        "r2": 0.9995708286704459
+      },
+      "cost_uah": {
+        "mae": 856.990572179874,
+        "r2": 0.9994646015571607
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            545,
+            0
+          ],
+          [
+            0,
+            220
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_50_road_15",
+      "loading_hours": {
+        "mae": 0.18447511630551217,
+        "r2": 0.9998439021595841
+      },
+      "first_day_tons": {
+        "mae": 16.77047711151217,
+        "r2": 0.9995626511957416
+      },
+      "minimum_full_day_tons": {
+        "mae": 16.59462988761598,
+        "r2": 0.9995704785016932
+      },
+      "cost_uah": {
+        "mae": 864.4980273110518,
+        "r2": 0.9994247174809106
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            545,
+            0
+          ],
+          [
+            0,
+            220
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_50_road_30",
+      "loading_hours": {
+        "mae": 0.1874306880661347,
+        "r2": 0.9998768418893546
+      },
+      "first_day_tons": {
+        "mae": 18.021831035015968,
+        "r2": 0.9995061529629209
+      },
+      "minimum_full_day_tons": {
+        "mae": 17.84142093715665,
+        "r2": 0.9995169701731568
+      },
+      "cost_uah": {
+        "mae": 857.2646464052457,
+        "r2": 0.999478614700777
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            545,
+            0
+          ],
+          [
+            0,
+            220
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_50_road_5",
+      "loading_hours": {
+        "mae": 0.191277889311591,
+        "r2": 0.9998147117183028
+      },
+      "first_day_tons": {
+        "mae": 17.033131180845707,
+        "r2": 0.999556662872851
+      },
+      "minimum_full_day_tons": {
+        "mae": 16.90929847648368,
+        "r2": 0.9995607310436649
+      },
+      "cost_uah": {
+        "mae": 864.0105187304065,
+        "r2": 0.9994199673124075
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            545,
+            0
+          ],
+          [
+            0,
+            220
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_5_road_0",
+      "loading_hours": {
+        "mae": 0.18751413495894173,
+        "r2": 0.9998581780788525
+      },
+      "first_day_tons": {
+        "mae": 18.2899168025332,
+        "r2": 0.9995912900190885
+      },
+      "minimum_full_day_tons": {
+        "mae": 18.085369424254186,
+        "r2": 0.9996007013992082
+      },
+      "cost_uah": {
+        "mae": 847.306851122243,
+        "r2": 0.9995140837079945
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            525,
+            0
+          ],
+          [
+            0,
+            240
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_5_road_15",
+      "loading_hours": {
+        "mae": 0.17703559172606853,
+        "r2": 0.9998821857646719
+      },
+      "first_day_tons": {
+        "mae": 19.67014374034741,
+        "r2": 0.9994948313047697
+      },
+      "minimum_full_day_tons": {
+        "mae": 19.56852265914082,
+        "r2": 0.9995024026146827
+      },
+      "cost_uah": {
+        "mae": 838.4330727370791,
+        "r2": 0.9995245922421202
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            525,
+            0
+          ],
+          [
+            0,
+            240
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    },
+    {
+      "context": "scale_5_road_30",
+      "loading_hours": {
+        "mae": 0.1961490149897308,
+        "r2": 0.9998322844870471
+      },
+      "first_day_tons": {
+        "mae": 19.89312325180098,
+        "r2": 0.9995090327843049
+      },
+      "minimum_full_day_tons": {
+        "mae": 19.728808445150786,
+        "r2": 0.9995141384073952
+      },
+      "cost_uah": {
+        "mae": 874.4132832968862,
+        "r2": 0.9994741972159711
+      },
+      "contract": {
+        "accuracy": 0.9921568627450981,
+        "confusion_matrix": [
+          [
+            529,
+            0
+          ],
+          [
+            6,
+            230
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 6
+      }
+    },
+    {
+      "context": "scale_5_road_5",
+      "loading_hours": {
+        "mae": 0.18034264089765845,
+        "r2": 0.9998739019252453
+      },
+      "first_day_tons": {
+        "mae": 18.913400832386678,
+        "r2": 0.999567004305353
+      },
+      "minimum_full_day_tons": {
+        "mae": 18.764427492458264,
+        "r2": 0.9995736742263103
+      },
+      "cost_uah": {
+        "mae": 856.4857107278154,
+        "r2": 0.9995090490562449
+      },
+      "contract": {
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            525,
+            0
+          ],
+          [
+            0,
+            240
+          ]
+        ],
+        "labels": [
+          false,
+          true
+        ],
+        "false_admissions": 0,
+        "false_rejections": 0
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "context": "scale_0_road_0",
+      "ml_configuration": "11_2_2_0_0",
+      "predicted_cost": 570995.6851024964,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 570889.2833333333,
+      "control_hours": 48.18366666666666,
+      "reference_configuration": "11_2_2_0_0",
+      "reference_cost": 570889.2833333333,
+      "all_passed_configurations": 48
+    },
+    {
+      "context": "scale_0_road_15",
+      "ml_configuration": "11_2_2_0_15",
+      "predicted_cost": 573126.422625473,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 572874.403746357,
+      "control_hours": 48.789458623,
+      "reference_configuration": "11_2_2_0_15",
+      "reference_cost": 572874.403746357,
+      "all_passed_configurations": 48
+    },
+    {
+      "context": "scale_0_road_30",
+      "ml_configuration": "11_2_2_0_30",
+      "predicted_cost": 575507.8698768163,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 575250.9602617986,
+      "control_hours": 49.53724525666666,
+      "reference_configuration": "11_2_2_0_30",
+      "reference_cost": 575250.9602617986,
+      "all_passed_configurations": 46
+    },
+    {
+      "context": "scale_0_road_5",
+      "ml_configuration": "11_2_2_0_5",
+      "predicted_cost": 571814.082369817,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 571835.2547673819,
+      "control_hours": 48.48404754366666,
+      "reference_configuration": "11_2_2_0_5",
+      "reference_cost": 571835.2547673819,
+      "all_passed_configurations": 48
+    },
+    {
+      "context": "scale_50_road_0",
+      "ml_configuration": "10_2_2_50_0",
+      "predicted_cost": 587466.5143655094,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 587655.9333333333,
+      "control_hours": 56.39266666666667,
+      "reference_configuration": "12_2_2_50_0",
+      "reference_cost": 587492.3583333333,
+      "all_passed_configurations": 44
+    },
+    {
+      "context": "scale_50_road_15",
+      "ml_configuration": "12_2_2_50_15",
+      "predicted_cost": 588696.9601844301,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 588609.9261494166,
+      "control_hours": 51.58049328233333,
+      "reference_configuration": "12_2_2_50_15",
+      "reference_cost": 588609.9261494166,
+      "all_passed_configurations": 44
+    },
+    {
+      "context": "scale_50_road_30",
+      "ml_configuration": "10_2_2_50_30",
+      "predicted_cost": 591340.7399134124,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 591378.5964196625,
+      "control_hours": 57.71481009733333,
+      "reference_configuration": "12_2_2_50_30",
+      "reference_cost": 591227.4923835832,
+      "all_passed_configurations": 44
+    },
+    {
+      "context": "scale_50_road_5",
+      "ml_configuration": "10_2_2_50_5",
+      "predicted_cost": 588038.1345393924,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 588359.9275995152,
+      "control_hours": 56.64395870533334,
+      "reference_configuration": "12_2_2_50_5",
+      "reference_cost": 587666.2981776223,
+      "all_passed_configurations": 44
+    },
+    {
+      "context": "scale_5_road_0",
+      "ml_configuration": "11_2_2_5_0",
+      "predicted_cost": 572624.2048620118,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 572403.9847222222,
+      "control_hours": 48.64033333333333,
+      "reference_configuration": "11_2_2_5_0",
+      "reference_cost": 572403.9847222222,
+      "all_passed_configurations": 48
+    },
+    {
+      "context": "scale_5_road_15",
+      "ml_configuration": "11_2_2_5_15",
+      "predicted_cost": 574823.2318223343,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 574577.4825842916,
+      "control_hours": 49.314234147333345,
+      "reference_configuration": "11_2_2_5_15",
+      "reference_cost": 574577.4825842916,
+      "all_passed_configurations": 48
+    },
+    {
+      "context": "scale_5_road_30",
+      "ml_configuration": "12_2_2_5_30",
+      "predicted_cost": 576854.5844573654,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 576704.9218253556,
+      "control_hours": 47.81797299166666,
+      "reference_configuration": "12_2_2_5_30",
+      "reference_cost": 576704.9218253556,
+      "all_passed_configurations": 46
+    },
+    {
+      "context": "scale_5_road_5",
+      "ml_configuration": "11_2_2_5_5",
+      "predicted_cost": 573243.6529351748,
+      "control_passed": 5,
+      "control_runs": 5,
+      "control_cost": 573080.3718783403,
+      "control_hours": 48.86729232200001,
+      "reference_configuration": "11_2_2_5_5",
+      "reference_cost": 573080.3718783403,
+      "all_passed_configurations": 48
+    }
+  ]
+}

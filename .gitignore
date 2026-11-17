@@ -1,0 +1,29 @@
+# Середовища Python та згенерований кеш
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Облікові дані та локальні налаштування
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Приватні вхідні дані та тимчасові результати
+data/private/
+outputs/local/
+# Локальне повторення вже опублікованої класифікаційної перевірки.
+results/classification_accounting_reproduced/
+tmp/
+*.log
+~$*
+Thumbs.db
+.DS_Store

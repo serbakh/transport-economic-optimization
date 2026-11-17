@@ -1,0 +1,107 @@
+{
+  "batch_tons": 10000,
+  "daily_min_tons": 4000,
+  "contexts": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      15
+    ],
+    [
+      0,
+      30
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      5,
+      15
+    ],
+    [
+      5,
+      30
+    ],
+    [
+      50,
+      0
+    ],
+    [
+      50,
+      5
+    ],
+    [
+      50,
+      15
+    ],
+    [
+      50,
+      30
+    ]
+  ],
+  "configurations": 1836,
+  "training_seeds": [
+    1000,
+    1001,
+    1002,
+    1003,
+    1004,
+    1005,
+    1006,
+    1007,
+    1008,
+    1009
+  ],
+  "control_seeds": [
+    10000,
+    10001,
+    10002,
+    10003,
+    10004
+  ],
+  "baseline_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "features": [
+    "trucks",
+    "loaders",
+    "unload_points",
+    "external_scale_load",
+    "road_delay_percent"
+  ],
+  "targets": [
+    "loading_hours",
+    "trips",
+    "truck_hours",
+    "loader_hours",
+    "loader_active_hours",
+    "scale_hours",
+    "feeder_hours",
+    "feeder_active_hours",
+    "first_day_tons",
+    "minimum_full_day_tons"
+  ],
+  "model_parameters": {
+    "trees": 300,
+    "random_state": 42,
+    "class_weight": "balanced"
+  },
+  "scope": "Постійний склад; 12 зовнішніх умов; ціни не є входом ML",
+  "admission_rule": "Класифікатор: виконано; прогноз мінімального добового тоннажу >=4000"
+}

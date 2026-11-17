@@ -1,0 +1,10 @@
+{
+  "capacity_tons": [27, 28],
+  "load_min": [8, 10],
+  "road_min": [18, 25],
+  "unload_min": [12, 15],
+  "return_min": 20,
+  "weigh_min": 3,
+  "road_delay_percent": 0,
+  "external_scale_load": 0
+}

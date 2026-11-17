@@ -1,0 +1,95 @@
+{
+  "status": "complete",
+  "python": "3.12.14",
+  "sklearn": "1.9.0",
+  "pandas": "2.3.1",
+  "numpy": "2.3.1",
+  "simpy": "4.1.1",
+  "source_sha256": {
+    "src\\conditions_contract_study.py": "684e29578ecc9fc490200e7fff7c2183d492fd750bdc901ebeac6c9f77b92e9e",
+    "src\\static_contract_study.py": "9ded78cc3db8ca72c89b480dae05a6ce816a92d2c302929b0c93297c5b7841f7",
+    "src\\dissertation_model.py": "bcac4a8b9914bf6e5406a04bbeb1379501db2f14e3d713ead8c029d8028579b2",
+    "src\\daily_contract.py": "c7153c942a5e8bbd31cba779c8f059007eec45ff4f442cca5fe5b6fe90f1c118",
+    "src\\resource_schedule.py": "7ec69826de3fd9ea5033475f16a3c37ef0f28a360dc9417e79888005b493832e",
+    "src\\vessel_cycle.py": "2e99530518178fda424befee853d9dd3098c4a75db71a27f3e2a881e4dee5f61",
+    "baseline\\src\\simulation\\digital_twin.py": "88b9e153c12193a3168d3aa1ecb014828b7ca67cff5431dd3d353876bfc270bb"
+  },
+  "rates": {
+    "diesel_litre": 100,
+    "litres_per_trip": 8,
+    "driver_12h": 1250,
+    "truck_maintenance_12h": 500,
+    "loader_active_hour": 1900,
+    "loader_maintenance_12h": 500,
+    "scale_worker_12h": 1200,
+    "feeder_operator_12h": 2000,
+    "feeder_equipment_12h": 4200,
+    "mechanic_12h": 2000,
+    "electricity_kwh": 10,
+    "feeder_kw": 40
+  },
+  "base_conditions": {
+    "capacity_tons": [
+      27,
+      28
+    ],
+    "load_min": [
+      8,
+      10
+    ],
+    "road_min": [
+      18,
+      25
+    ],
+    "unload_min": [
+      12,
+      15
+    ],
+    "return_min": 20,
+    "weigh_min": 3,
+    "road_delay_percent": 0,
+    "external_scale_load": 0
+  },
+  "started_unix": 1794081231.9899216,
+  "generation_complete": true,
+  "finished_unix": 1794081609.0292454,
+  "output_sha256": {
+    "baseline_comparison.csv": "98e48458116b5f4f70a908c78d1d727ee7c9ffaa1845ef6184a3de6ece56db81",
+    "baseline_runs.csv": "4122794a39c7f52999e7d57887187d11a5fd8dec841effb572754923b081224a",
+    "control_predictions.csv": "af10c5b7089bc5781f4d5e292f602a49416829dcbc98117f8832032b4b99598e",
+    "control_summary.csv": "81d167a327d5b05a6bed7c7605a5557f2852c4f8f886c62cbfe814becb180eb7",
+    "daily.csv": "e72a9c1ca04be18d8b8d40375eb7aceea754688d9d796582849bfcc162c90288",
+    "decisions_by_conditions.csv": "0b00c961784df9ed58356a037bc4a2cbde2f434bf9e3e3d7266705e889407cf4",
+    "evaluation.json": "38e3bd1253ced9344c56a6595bbd9eef3ce26f554bdce320a8517e3b01709e4c",
+    "final_model.joblib": "8fbfe691e42cfd17a48098323be0ef0ec8e788839b115784c03c18c75087e59e",
+    "heldout_model.joblib": "eda6125cae9a0b904b59a1ab45d32e60f73a7ede64b4b4905a1b61db0abfa907",
+    "physical_runs.csv": "9897f322aba51ca7c41aca653b612ac1f2b6ced170da0fbb86d6e17952a48203",
+    "plan.json": "0cbcf9a1a9bdd45b7f28936ec59f1265c3e9e0a4215d79c2cef3946f751f676f",
+    "predictions_1836.csv": "2f1563d42cc667ec86cb5d066cf4b9ef42d850728efe47800011d7ef6d53960f",
+    "split.json": "b01a91fd8bd5e4aeacd5b06f3b72c28335a53e31861b7188be1e1a5cc7dd5631",
+    "contexts\\scale_0_road_0_daily.csv": "b44fe0de42ac715e0fa2312f98978f766982a40cea159ad90594e1576ebc0d86",
+    "contexts\\scale_0_road_0_runs.csv": "bd955482b39816930f431ab5f49db67ecff753e0b09b6f2e2d67d91b307f3688",
+    "contexts\\scale_0_road_15_daily.csv": "20315cde1ac52bab2293d005f65f28152cb26d595b42119486ad1508e62496a7",
+    "contexts\\scale_0_road_15_runs.csv": "5cf67f4396721ad1e5da92b307bbe814c4bb884a9fadb1a2cf2fcaa6c0f9d23a",
+    "contexts\\scale_0_road_30_daily.csv": "c505ea3923a2601428ddf77780fae75ad6451764bf3547a3557a8fbfa37380b6",
+    "contexts\\scale_0_road_30_runs.csv": "b8d269bf86328f2627afbf176f1bc857840a22109414e172452c3bbceede1f20",
+    "contexts\\scale_0_road_5_daily.csv": "e1106b0c13ba65391b561cfd73fa318510b0e97e473373c3b9efe40af14ac86e",
+    "contexts\\scale_0_road_5_runs.csv": "5ffaa70591372ae14b6b91c2a1dc4c0d81557133b05c7729408a93ff30090539",
+    "contexts\\scale_50_road_0_daily.csv": "c9859cef42d5d893bed17735d5d8117e60f910e6d6b31ac9cfa30d00a0f6c1db",
+    "contexts\\scale_50_road_0_runs.csv": "5b8889c25d8b9bb0541efc742765974f279e92bc9a87cf339036c9c3fadceb62",
+    "contexts\\scale_50_road_15_daily.csv": "17585d9fed5d67b28194d76253ddd30126bf23272d4392825071241d315adbc5",
+    "contexts\\scale_50_road_15_runs.csv": "834fec2572e0f42525450cd9d15e4892c589b740b7175aceeea0b0c3698db676",
+    "contexts\\scale_50_road_30_daily.csv": "91ffa32aa886eccd808a51be174a12f4b28f1f7b600294f551748b92deccbc24",
+    "contexts\\scale_50_road_30_runs.csv": "83ff1a44d01a13e0603ebf2d4bc79bbba4034bb9239b8f83ab6cc3c4ed759219",
+    "contexts\\scale_50_road_5_daily.csv": "b976d53125a0cffd49e3e6458853e2178a2f4f3ef5b0975a4c4f1c6668ea36f8",
+    "contexts\\scale_50_road_5_runs.csv": "76de54f4163878e41965309e652aa7515afa1460795dd1c16f6ddc449410b208",
+    "contexts\\scale_5_road_0_daily.csv": "abfedce13c45c9ac3cadf6550792409f6b83aaa008b1806cc1f80dd2961fc6c2",
+    "contexts\\scale_5_road_0_runs.csv": "e9379415b51f3b84ddc9aa57fe79ce08a943ae93e0ed45d276dc426da3b3f90b",
+    "contexts\\scale_5_road_15_daily.csv": "5ec9894c022b644cea2df97eba226831d193957a0b70c2d8f29d8ce40b4e7698",
+    "contexts\\scale_5_road_15_runs.csv": "62574ddb0f19e061f206cc5bd3bae7b47df66adfea87fd7ffcab516718efb46c",
+    "contexts\\scale_5_road_30_daily.csv": "12c200a5a34f25a5a454adee6ccab5d97b152b50649a0e79e715bf481f0a6893",
+    "contexts\\scale_5_road_30_runs.csv": "718359ce3b71a71c5ec1be3c2b0113c1cac773923db0e4131f1bbb657db15cc8",
+    "contexts\\scale_5_road_5_daily.csv": "29a064b38687616f54f3b75775b2eab8bd938190a927857f10ccfe0c389775c0",
+    "contexts\\scale_5_road_5_runs.csv": "908f666b74e529f23dd3dbe2f96e6375ed1139db4d9503a6b7d71a5249d01a35"
+  }
+}

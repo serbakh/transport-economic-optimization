@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scenario_id": "example_12000_add_two_trucks_after_8h",
+  "batch_tons": 12000,
+  "seed": 42,
+  "resources": [
+    {"group_id": "initial_trucks", "resource": "truck", "count": 9, "available_from_min": 0, "available_until_min": null},
+    {"group_id": "extra_trucks", "resource": "truck", "count": 2, "available_from_min": 480, "available_until_min": 1200},
+    {"group_id": "warehouse_loaders", "resource": "loader", "count": 2, "available_from_min": 0, "available_until_min": null},
+    {"group_id": "shared_scale", "resource": "scale", "count": 1, "available_from_min": 0, "available_until_min": null},
+    {"group_id": "vessel_feeders", "resource": "unload", "count": 2, "available_from_min": 0, "available_until_min": null}
+  ]
+}

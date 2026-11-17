@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scenario_id": "current_10000_11_2_2_seed10000",
+  "batch_tons": 10000,
+  "seed": 10000,
+  "resources": [
+    {"group_id": "trucks", "resource": "truck", "count": 11},
+    {"group_id": "loaders", "resource": "loader", "count": 2},
+    {"group_id": "scale", "resource": "scale", "count": 1},
+    {"group_id": "feeders", "resource": "unload", "count": 2}
+  ]
+}

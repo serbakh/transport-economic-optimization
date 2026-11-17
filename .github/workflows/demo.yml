@@ -1,0 +1,23 @@
+name: Demonstration data
+on:
+  push:
+    branches: [main]
+    paths: ['demo/**', 'tools/build_demo.py', 'results/conditions_contract_ml_2026_11_07/**', '.github/workflows/demo.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/build_demo.py
+      - run: python -m pip install -r requirements.txt
+      - run: python tools/build_integrated_demo.py
+      - run: git diff --exit-code -- demo/data.js demo/provenance.json demo/replays.js demo/index.html
+      - run: node --check demo/contract.js
+      - run: node --check demo/presentation.js
+      - run: node tools/check_integrated_demo.cjs

@@ -1,0 +1,12 @@
+{
+  "source_and_output_hashes": true,
+  "baseline_unchanged": true,
+  "rows": 27540,
+  "scenarios": 1836,
+  "contexts": 12,
+  "separate_seeds": true,
+  "full_day_contract_verified": true,
+  "cost_reconstruction_verified": true,
+  "heldout_resource_configurations": 31,
+  "economic_selection_verified": true
+}

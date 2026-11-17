@@ -1,0 +1,14 @@
+{
+  "diesel_litre": 100,
+  "litres_per_trip": 8,
+  "driver_12h": 1250,
+  "truck_maintenance_12h": 500,
+  "loader_active_hour": 1900,
+  "loader_maintenance_12h": 500,
+  "scale_worker_12h": 1200,
+  "feeder_operator_12h": 2000,
+  "feeder_equipment_12h": 4200,
+  "mechanic_12h": 2000,
+  "electricity_kwh": 10,
+  "feeder_kw": 40
+}
