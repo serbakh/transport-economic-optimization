@@ -1,4 +1,4 @@
-"""Check the clean project, its links and unchanged experiment artifacts."""
+"""Check the project, its links and unchanged experiment artifacts."""
 import ast
 import hashlib
 import json
